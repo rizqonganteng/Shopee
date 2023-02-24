@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//ajax.googleleaps.com/ajax/libs/jquary/3.6.1/jquary.min.js"></script>
+    <title>Document</title>
+    <style>
+        .divpractice {
+            width: 900px;
+            height: 500px;
+
+            background-color: rgb(27, 219, 219);
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            padding: 10px;
+
+            margin: 0px auto 0px auto;
+        }
+
+        .divpractice> .first{
+            width: 40%;
+            height: 200%;
+
+            background-color: blue;
+        }
+        .divpractice> .second{
+            width: 40%;
+            height: 300%;
+
+            background-color: bisque;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .divpractice > .second > .button {
+            margin-right: 5px;
+            padding: 10px;
+        }
+    </style>
+    <script>
+        function hey(){
+            alert('hello!')
+        }
+    </script>
+</head>
+<body>
+       <h1>My Review Page</h1> 
+       <h2>This is subtittle</h2>
+       <input type="text" id="input-box">
+    <div class="divpractice">
+        <div class = "first">first</div>
+        <div class= "second" id="second-box">
+            <button onclick="hey()" class="button">button first</button>
+            <button class="button">button second</button>
+            <button class="button">button third</button>
+        </div> 
+    </div>
+</body>
+
+</html>s
